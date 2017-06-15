@@ -149,7 +149,17 @@ h5 {
   }
 }
 @media (max-width: 680px){
+  #page-wrapper {
+    position: inherit;
+    margin: 0 0 0 240px;
+    min-height: 1000px;
+  }
+  .modal{
+    overflow-y:scroll;
+    position: fixed;
+  }
   .modal-dialog{
     width: 90%;
+    padding-bottom: 100px;
   }
 }
